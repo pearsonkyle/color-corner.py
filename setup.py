@@ -26,8 +26,8 @@ setup(
     url="https://github.com/dfm/corner.py",
     packages=["corner"],
     description="Make some beautiful corner plots of samples.",
-    long_description=open("README.rst").read(),
-    package_data={"": ["README.rst", "LICENSE"]},
+    long_description=open("README.md").read(),
+    package_data={"": ["README.md", "LICENSE"]},
     include_package_data=True,
     classifiers=[
         "Development Status :: 5 - Production/Stable",
