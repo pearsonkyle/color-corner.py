@@ -1,6 +1,8 @@
 color-corner.py
 =========
+Read the [original documentation](http://corner.readthedocs.io/)
 
+Examples: 
 ```python
     f = corner.corner(nlposteriors[mask,2:], 
         labels= labels,
@@ -13,7 +15,7 @@ color-corner.py
             'c':nlposteriors[mask,1],
             'vmin':np.percentile(nlposteriors[:,1],1),
             'vmax':np.percentile(nlposteriors[:,1],50),
-            'cmap':newcmp,
+            'cmap':'jet',
         },
         label_kwargs={
             'labelpad':15,
@@ -24,10 +26,8 @@ color-corner.py
     )
 ```
 
-Examples:
-
 ![](color_posterior1.png)
 
 ![](color_posterior2.png)
 
-Read the [original documentation](http://corner.readthedocs.io/)
+Used to create posteriors for: https://github.com/pearsonkyle/Nbody-AI/
