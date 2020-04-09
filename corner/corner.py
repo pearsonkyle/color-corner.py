@@ -643,7 +643,7 @@ def hist2d(x, y, bins=20, range=None, weights=None, levels=None, smooth=None,
         data_kwargs["ms"] = data_kwargs.get("ms", 2.0)
         data_kwargs["mec"] = data_kwargs.get("mec", "none")
         data_kwargs["alpha"] = data_kwargs.get("alpha", 0.1)
-        ax.plot(x, y, "o", zorder=-1, rasterized=True, **data_kwargs)
+        ax.scatter(x, y, marker="o", zorder=-1, rasterized=True, **data_kwargs)
 
     # Plot the base fill to hide the densest data points.
     if (plot_contours or plot_density) and not no_fill_contours:
