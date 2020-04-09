@@ -7,7 +7,7 @@ Read the [original documentation](http://corner.readthedocs.io/)
 ## Installation:
 ```
 git clone https://github.com/pearsonkyle/color-corner.py.git
-cd color-corner/
+cd color-corner.py/
 python setup.py build
 python setup.py install
 ```
