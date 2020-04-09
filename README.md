@@ -4,6 +4,14 @@ Same library as the original except the data points are plotted with ax.scatter 
 
 Read the [original documentation](http://corner.readthedocs.io/)
 
+## Installation:
+```
+git clone https://github.com/pearsonkyle/color-corner.py.git
+cd color-corner/
+python setup.py build
+python setup.py install
+```
+
 Examples: 
 ```python
     f = corner.corner(nlposteriors[mask,2:], 
