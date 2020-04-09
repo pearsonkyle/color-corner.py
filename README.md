@@ -1,5 +1,7 @@
 color-corner.py
 =========
+Same library as the original except the data points are plotted with ax.scatter instead of ax.plot allowing for custom color maps in "data_kwargs"
+
 Read the [original documentation](http://corner.readthedocs.io/)
 
 Examples: 
